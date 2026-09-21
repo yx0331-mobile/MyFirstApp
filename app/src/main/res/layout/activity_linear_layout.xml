@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    android:padding="2dp">
+
+    <!-- 第1行 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="One, One"
+            android:textColor="#FFFFFF"
+            android:background="#000000"
+            android:layout_margin="1dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="One, Two"
+            android:textColor="#FFFFFF"
+            android:background="#000000"
+            android:layout_margin="1dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="One, Three"
+            android:textColor="#FFFFFF"
+            android:background="#000000"
+            android:layout_margin="1dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="One, Four"
+            android:textColor="#FFFFFF"
+            android:background="#000000"
+            android:layout_margin="1dp" />
+    </LinearLayout>
+
+    <!-- 第2行 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Two, One"
+            android:textColor="#FFFFFF"
+            android:background="#000000"
+            android:layout_margin="1dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Two, Two"
+            android:textColor="#FFFFFF"
+            android:background="#000000"
+            android:layout_margin="1dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Two, Three"
+            android:textColor="#FFFFFF"
+            android:background="#000000"
+            android:layout_margin="1dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Two, Four"
+            android:textColor="#FFFFFF"
+            android:background="#000000"
+            android:layout_margin="1dp" />
+    </LinearLayout>
+
+    <!-- 第3行 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Three, One"
+            android:textColor="#FFFFFF"
+            android:background="#000000"
+            android:layout_margin="1dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Three, Two"
+            android:textColor="#FFFFFF"
+            android:background="#000000"
+            android:layout_margin="1dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Three, Three"
+            android:textColor="#FFFFFF"
+            android:background="#000000"
+            android:layout_margin="1dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Three, Four"
+            android:textColor="#FFFFFF"
+            android:background="#000000"
+            android:layout_margin="1dp" />
+    </LinearLayout>
+
+    <!-- 第4行 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Four, One"
+            android:textColor="#FFFFFF"
+            android:background="#000000"
+            android:layout_margin="1dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Four, Two"
+            android:textColor="#FFFFFF"
+            android:background="#000000"
+            android:layout_margin="1dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Four, Three"
+            android:textColor="#FFFFFF"
+            android:background="#000000"
+            android:layout_margin="1dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Four, Four"
+            android:textColor="#FFFFFF"
+            android:background="#000000"
+            android:layout_margin="1dp" />
+    </LinearLayout>
+
+</LinearLayout>

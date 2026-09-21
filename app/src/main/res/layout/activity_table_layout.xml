@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/table_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:stretchColumns="*">
+
+    <!-- 标题行：Hello TableLayout -->
+    <TableRow
+        android:background="#EEEEEE">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:padding="8dp"
+            android:text="Hello TableLayout"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+    </TableRow>
+
+    <View
+        android:layout_height="1dp"
+        android:background="#CCCCCC" />
+
+    <!-- Open... | Ctrl-O -->
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Open..."
+            android:textColor="#000000" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Ctrl-O"
+            android:textColor="#000000"
+            android:gravity="end" />
+    </TableRow>
+
+    <View
+        android:layout_height="1dp"
+        android:background="#CCCCCC" />
+
+    <!-- Save... | Ctrl-S -->
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Save..."
+            android:textColor="#000000" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Ctrl-S"
+            android:textColor="#000000"
+            android:gravity="end" />
+    </TableRow>
+
+    <View
+        android:layout_height="1dp"
+        android:background="#CCCCCC" />
+
+    <!-- Save As... | Ctrl-Shift-S -->
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Save As..."
+            android:textColor="#000000" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Ctrl-Shift-S"
+            android:textColor="#000000"
+            android:gravity="end" />
+    </TableRow>
+
+    <View
+        android:layout_height="1dp"
+        android:background="#CCCCCC" />
+
+    <!-- X Import... -->
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="X Import..."
+            android:textColor="#000000" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text=""
+            android:textColor="#000000" />
+    </TableRow>
+
+    <View
+        android:layout_height="1dp"
+        android:background="#CCCCCC" />
+
+    <!-- X Export... | Ctrl-E -->
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="X Export..."
+            android:textColor="#000000" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Ctrl-E"
+            android:textColor="#000000"
+            android:gravity="end" />
+    </TableRow>
+
+    <View
+        android:layout_height="1dp"
+        android:background="#CCCCCC" />
+
+    <!-- Quit -->
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="Quit"
+            android:textColor="#000000" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text=""
+            android:textColor="#000000" />
+    </TableRow>
+
+</TableLayout>

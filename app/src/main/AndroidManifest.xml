@@ -21,6 +21,31 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".LinearLayoutActivity"
+            android:exported="false"
+            android:label="线性布局" />
+
+        <activity
+            android:name=".TableLayoutActivity"
+            android:exported="false"
+            android:label="表格布局" />
+
+        <activity
+            android:name=".CalculatorActivity"
+            android:exported="false"
+            android:label="约束布局-计算器" />
+
+        <activity
+            android:name=".SpaceTravelActivity"
+            android:exported="false"
+            android:label="约束布局-太空旅行" />
+
+        <activity
+            android:name=".compose.TaskListActivity"
+            android:exported="false"
+            android:label="Compose任务列表" />
     </application>
 
 </manifest>
